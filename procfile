@@ -1,1 +1,1 @@
-web: waitress-serve host:app --log-file 
+web: waitress-serve --listen=*8041 myapp:getJson
