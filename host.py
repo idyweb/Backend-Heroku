@@ -10,7 +10,7 @@ def getJson():
 
             "backend": True,
             "age":27,
-            "bio": "Build and Host serve"
+            "bio": "Build and Host server"
         }
 
         return jsonify(data)
