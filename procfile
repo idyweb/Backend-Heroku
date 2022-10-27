@@ -1,1 +1,1 @@
-web: waitress-serve --listen=localhost:8001 BACKEND.wsgi: app:host.py
+web: waitress-serve --listen=localhost:9696 BACKEND.wsgi: host.py
