@@ -1,0 +1,1 @@
+web: waitress-serve --listen=localhost:5000 BACKEND.wsgi: app.py
