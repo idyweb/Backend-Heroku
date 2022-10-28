@@ -13,7 +13,7 @@ def getJson():
             "bio": "Build and Host server"
         }
 
-        return jsonify(data)
+        return {'data':data}
 
 if __name__=='__main__':
     app.run(port = 5000, debug=True)
